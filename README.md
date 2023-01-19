@@ -255,4 +255,15 @@
     1. [ARM templates](AZ-400%20Microsoft%20Azure%20DevOps%20Solutions/12.1.%20ARM%20templates.md)
 13. [Configuration as Code (PowerShell DSC & Azure Automation & Custom Script)](AZ-400%20Microsoft%20Azure%20DevOps%20Solutions/13.%20Configuration%20as%20Code%20(PowerShell%20DSC%20&%20Azure%20Automation%20&%20Custom%20Script).md)
 
+Ports
+22 SSH
+443 HTTPS
+445 SMB (file share)
+2049 - used for networm file shareNFS
+3389 RDP
+
+Fileshare errors
+error 67 - open 445 port for fileshare
+error 53 = Enable new technology LAN manager version 1 on windows server for fileshare
+
 [↑](#content)
